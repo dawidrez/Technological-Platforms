@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.Create"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Create" Height="450" Width="350">
+    <Grid Margin="0,0,2,-4" >
+        <Label Margin="30,65,106,325">Name</Label>
+        <TextBox x:Name="Name" Margin="85,60,20,325" />
+        <RadioButton x:Name="radioFile" Margin="90,100,133,290">File</RadioButton>
+        <RadioButton x:Name="radioDir" Margin="160,100,53,290">Directory</RadioButton>
+        <CheckBox x:Name="checkRO" Margin="87,148,61,241">ReadOnly</CheckBox>
+        <CheckBox x:Name="checkA" Margin="87,178,61,211">Archive</CheckBox>
+        <CheckBox x:Name="checkH" Margin="87,208,61,181">Hidden</CheckBox>
+        <CheckBox x:Name="checkS" Margin="86,238,62,151">System</CheckBox>
+        <Button x:Name="OK" Margin="80,270,200,120" Click="OKButton">OK</Button>
+        <Button x:Name="buttonCancel" Margin="200,270,80,120" Click="CancelButton">Cancel</Button>
+    </Grid>
+</Window>
